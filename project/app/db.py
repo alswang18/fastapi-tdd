@@ -27,6 +27,7 @@ def init_db(app: FastAPI) -> None:
         add_exception_handlers=True,
     )
 
+
 async def generate_schema() -> None:
     log.info("Initializing Tortoise...")
 
